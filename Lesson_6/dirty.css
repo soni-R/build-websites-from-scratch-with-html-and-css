@@ -1,0 +1,53 @@
+/* Custom Css for Getting my hands dirty */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background:#eee;
+	color:#333;
+	font-size: 14px;
+	font-family: Helvetica, Arial, Sans-serif;
+}
+
+#container{
+	width:700px;
+}
+
+#header, #footer{
+	background: #333;
+	color: #fff;
+	margin:10px;
+	padding: 30px;
+}
+
+#footer{
+	text-align: center;
+	font-size: 12px;
+}
+
+.lead{
+	font-size: 18px;
+}
+
+.blog-post{
+	background: #fff;
+	color: #333;
+	padding: 30px;
+	margin: 10px;
+}
+
+h1,h2,h3{
+	color: #ed7000;	
+}
+
+.blog-post h2, .blog-post p {
+	margin-bottom:10px;
+}
+
+.blog-post em{
+	color: #ccc;
+}
+
