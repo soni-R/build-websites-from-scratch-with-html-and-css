@@ -42,3 +42,21 @@ body{
     margin: 0 0 10px;
     padding: 10px;
 }
+
+/*Descendant selectors */
+.primary-box h2{
+	font-family: helvetica, Arial, sans-serif;
+}
+
+.primary-box p em{
+	color: pink;
+}
+
+
+.secondary-box p{
+	font-family: helvetica, Arial, sans-serif;
+}
+
+.secondary-box em{
+	color:blue;
+}
