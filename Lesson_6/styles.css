@@ -1,7 +1,12 @@
 /* custom css*/
 
+*{
+	margin: 0;
+	padding:0;
+}
+
 body{
-	background: #4d2d06;
+	background: #a52a2a;
 	font-family: Georgia Times serif;
 	color:#fff;
 	font-size: 50px;
@@ -20,3 +25,20 @@ body{
 	font-style: monaco, monospace;
 }
 
+/* class Selectors*/
+
+.primary-box{
+	background: #222;
+    color: #eee;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
+
+.secondary-box{
+	background: #eee;
+	color: #222;
+    font-size: 24px;
+    margin: 0 0 10px;
+    padding: 10px;
+}
