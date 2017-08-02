@@ -74,4 +74,30 @@ a:active{
 	color: #333;
 }
 
+/*Css positioning */
+
+#container{
+	position: relative;
+}
+
+.box{
+	background:#db4e4e;
+	height: 150px;
+	width:150px;
+	color: white;
+	margin: 20px 0;
+
+}
+
+#relative-box{
+	position: relative;
+	top: 30px;
+	left: -70px;
+}
+
+#absolute-box{
+	position: absolute;
+	top: 0;
+	right: 0;
+}
 
